@@ -15,7 +15,7 @@
 //= require bootstrap-sprockets
 //= require rails-ujs
 //= require activestorage
-//= require turbolinks
+
 //= require_tree .
 
 
@@ -28,6 +28,26 @@
 //     reader.readAsDataURL(e.target.files[0]);
 //   })
 // })
+
+
+  // $(function () {
+  //   lightbox.option({
+  //     'alwaysShowNavOnTouchDevices': false,
+  //     'albumLabel': 'ギャラリー： %1 of %2',
+  //     'disableScrolling': false,
+  //     'fadeDuration': 600,
+  //     'fitImagesInViewport': true,
+  //     'imageFadeDuration': 600,
+  //     'maxWidth': 400,
+  //     'maxHeight': 400,
+  //     'positionFromTop': 50,
+  //     'resizeDuration': 700,
+  //     'showImageNumberLabel': true,
+  //     'wrapAround': false,
+  //   });
+  // });
+
+
 $(function(){
   $('#post_image_image').on('change', function (e) {
       var reader = new FileReader();
